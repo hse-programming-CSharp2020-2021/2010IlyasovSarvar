@@ -76,5 +76,5 @@ namespace Task4
             }
             Console.WriteLine();
         }
-    }йы
+    }
 }
