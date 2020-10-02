@@ -9,7 +9,7 @@ namespace Task4
         {
             int firstA;
 
-            Console.Write("Enter first number of massive : ");
+            Console.Write("Enter first number of array : ");
 
             if (!int.TryParse(Console.ReadLine(), out firstA))
             {
@@ -17,7 +17,7 @@ namespace Task4
             }
             else
             {
-                FormMassive(firstA);
+                FormArray(firstA);
             }
 
             ExitOrRepeat(args);
@@ -39,7 +39,7 @@ namespace Task4
             }
         }
 
-        private static void FormMassive(int firstA)
+        private static void FormArray(int firstA)
         {
             // Метод чтобы сформировать массив(лист).
 
